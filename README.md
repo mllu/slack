@@ -1,4 +1,4 @@
-Slack API in Go [![GoDoc](https://godoc.org/github.com/nlopes/slack?status.svg)](https://godoc.org/github.com/nlopes/slack) [![Build Status](https://travis-ci.org/nlopes/slack.svg)](https://travis-ci.org/nlopes/slack)
+Slack API in Go [![GoDoc](https://godoc.org/github.com/mllu/slack?status.svg)](https://godoc.org/github.com/mllu/slack) [![Build Status](https://travis-ci.org/mllu/slack.svg)](https://travis-ci.org/mllu/slack)
 ===============
 
 [![Join the chat at https://gitter.im/go-slack/Lobby](https://badges.gitter.im/go-slack/Lobby.svg)](https://gitter.im/go-slack/Lobby?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=badge)
@@ -16,17 +16,17 @@ Support for the EventsAPI has recently been added. It is still in its early stag
 
 Release adds a bunch of functionality and improvements, mainly to give people a recent version to vendor against.
 
-Please check [0.2.0](https://github.com/nlopes/slack/releases/tag/v0.2.0)
+Please check [0.2.0](https://github.com/mllu/slack/releases/tag/v0.2.0)
 
 ### CHANGELOG.md
 
- [CHANGELOG.md](https://github.com/nlopes/slack/blob/master/CHANGELOG.md) is available. Please visit it for updates.
+ [CHANGELOG.md](https://github.com/mllu/slack/blob/master/CHANGELOG.md) is available. Please visit it for updates.
 
 ## Installing
 
 ### *go get*
 
-    $ go get -u github.com/nlopes/slack
+    $ go get -u github.com/mllu/slack
 
 ## Example
 
@@ -36,7 +36,7 @@ Please check [0.2.0](https://github.com/nlopes/slack/releases/tag/v0.2.0)
 import (
 	"fmt"
 
-	"github.com/nlopes/slack"
+	"github.com/mllu/slack"
 )
 
 func main() {
@@ -61,7 +61,7 @@ func main() {
 import (
     "fmt"
 
-    "github.com/nlopes/slack"
+    "github.com/mllu/slack"
 )
 
 func main() {
@@ -77,12 +77,12 @@ func main() {
 
 ## Minimal RTM usage:
 
-See https://github.com/nlopes/slack/blob/master/examples/websocket/websocket.go
+See https://github.com/mllu/slack/blob/master/examples/websocket/websocket.go
 
 
 ## Minimal EventsAPI usage:
 
-See https://github.com/nlopes/slack/blob/master/examples/eventsapi/events.go
+See https://github.com/mllu/slack/blob/master/examples/eventsapi/events.go
 
 
 ## Contributing
